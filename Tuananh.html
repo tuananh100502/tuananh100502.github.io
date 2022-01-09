@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 <head>
  <style>
- .column {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+.column {
   float: left;
 }
 
@@ -34,6 +37,29 @@ text-align:center;
 border:2px solid black;
 border-collapse:collapse;
 }
+.card{
+width:100%;
+height:35px;
+background:#f8f8f8;
+margin:0px;
+border-radius:20px;
+position:relative;
+}
+.card_text{
+position:absolute;
+right:15px;
+top:6px;
+}
+.card_img{
+position:absolute;
+left:15px;
+top:4px;
+}
+.card_img img{
+object-fit:cover;
+width:100%;
+height:27px;
+}
 </style>
 
 <script>
@@ -44,27 +70,45 @@ document.getElementById("demo").style.display="none";
 
 </head>
 <body>
-<div style="background-color:#f8f8f8;font-size:16px;overflow:auto;">
-<p style="text-align:right;Margin:5px;">  Help | Join Us | Sign In <img src="C:\Users\PC\Downloads\jordan.png"  style="float:left;width:45px;height:30px"> </p>
+<div class="card"> 
+<div class="card_text"> Help | Join Us | Sign In </div>
+<div class="card_img"> <img src="C:\Users\PC\Downloads\jordan.png"> </div>
 </div>
+
 
 <h1 style="font-size:60px;text-align:center;color:white;
 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">TuanAnh shop</h1>
 <h1 style="font-size:20px;"> <i> Sponsored by Nike </i> <img src="C:\Users\PC\Downloads\Nike_logo.png" style="width:25px;height:25px;float:center;"> </h1> 
-<h2 style="color:black;font-family:Fantasy;">List of products:</h2>
+<h2 style="color:black;font-family:"Poppins";">List of products:</h2>
 
 <div class="column side">
 <p>Shoes/Air Max</p> 
 <p style="font-size:20px;"> Air Max Shoes(73) </p>
 </div> 
 <div class="column side" style="font-size:20px;">
-<p> <img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>
-Nike Air Max Dawn <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br><br><br>
-<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>
-Nike Air Max 2021 <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br><br><br>
-<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>
-Nike Air Max 90 <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br>
+<p> <img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>Nike Air Max Dawn 
+<p style="color:Gray;"> Women's Shoe <br>  3 colours </p> 
+S$229<br><br><br>
+<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br> Nike Air Max 2021 
+<p style="color:Gray;"> Women's Shoe <br>  3 colours </p> 
+S$240<br><br><br>
+<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br> Nike Air Max 90 
+<p style="color:Gray;"> Women's Shoe <br>  3 colours </p>
+ S$229<br>
 </div>
+
+<div class="column side" style="font-size:20px;">
+<p> <img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>Nike Air Max Dawn 
+<p style="color:Gray;"> Women's Shoe <br>  3 colours </p> 
+S$229<br><br><br>
+<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br> Nike Air Max 2021 
+<p style="color:Gray;"> Women's Shoe <br>  3 colours </p> 
+S$240<br><br><br>
+<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br> Nike Air Max 90 
+<p style="color:Gray;"> Women's Shoe <br>  3 colours </p>
+ S$229<br>
+</div>
+
 <div class ="column side" style="font-size:20px;">
 <p>
 <img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> 
@@ -73,15 +117,6 @@ Nike Air Max 90 <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<
 Nike Air Max 90s <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br><br><br>
 <img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>
 Nike Air Max Patta <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br>
-</div>
-<div class ="column side" style="font-size:20px;">
-<p>
-<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;">
-<br>Nike Air Max 92 <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br><br><br>
-<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>
-Nike Air Max 92 <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br><br><br>
-<img src="C:\Users\PC\Downloads\air-max-270-shoe-V4DfZQ.jpg" style="width:90%;height:75%;"> <br>
-Nike Air Max 92 <p style="color:Gray;"> Women's Shoe <br>  3 colours </p> S$229<br><br>
 </div>
 
 <label for="demo">Accept Cookies </label>
